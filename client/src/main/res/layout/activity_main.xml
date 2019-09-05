@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/client_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get"/>
+
+    <Button
+        android:id="@+id/client_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add_IN_OUT"/>
+
+    <Button
+        android:id="@+id/client_add_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add_in"/>
+
+    <Button
+        android:id="@+id/client_add_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add_out"/>
+</LinearLayout>
